@@ -1,0 +1,67 @@
+.landing {
+    font-family: "Fira Code", monospace;
+    height: 105vh;
+    position: relative;
+    background-color: rgb(238, 236, 236);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5vh;
+    background-color: #b8c6db;
+    background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
+  }
+  
+  .landing__purpleText {
+    color: var(--purple);
+  }
+  
+  .landing__topText {
+    margin-bottom: 15px;
+  }
+  
+  .landing__mainText {
+    font-size: 40px;
+    text-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    color: var(--dark-gray);
+  }
+  
+  .landing__hr {
+    width: 35vw;
+    height: 2px;
+    background-color: var(--purple);
+    border: none;
+    margin: 20px auto;
+    animation: fadeInAnimation ease 3s;
+  }
+  
+  @keyframes fadeInAnimation {
+    0% {
+      width: 0vw;
+    }
+    100% {
+      width: 35vw;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .landing {
+      padding-top: 0;
+      height: 95vh;
+    }
+  
+    .landing__hr {
+      transition: all 1s ease-out;
+      width: 80vw;
+    }
+  
+    @keyframes fadeInAnimation {
+      0% {
+        width: 0vw;
+      }
+      100% {
+        width: 80vw;
+      }
+    }
+  }

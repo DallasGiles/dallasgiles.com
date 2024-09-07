@@ -1,0 +1,62 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    height: 66vh;
+    background: linear-gradient(
+      90deg,
+      rgba(18, 19, 20, 1) 0%,
+      rgba(34, 38, 43, 1) 59%,
+      rgba(49, 54, 59, 1) 100%
+    );
+    position: relative;
+  }
+  
+  .contact__body {
+    max-width: 50vw;
+    padding-top: 10vh;
+    padding-left: 10vw;
+  }
+  
+  .contact__p {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-size: 20px;
+    padding-bottom: 15px;
+  }
+  
+  .contact__option {
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    align-items: center;
+    padding-bottom: 15px;
+  }
+  
+  .contact__text {
+    color: white;
+    text-decoration: underline;
+    font-size: 30px;
+  }
+  
+  .contact__logo {
+    color: var(--purple);
+    margin-right: 15px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .contact {
+      align-items: center;
+    }
+  
+    .contact__heading {
+      font-size: 48px;
+    }
+  
+    .contact__body {
+      max-width: 80vw;
+      padding-left: 0;
+    }
+  
+    .contact__text {
+      font-size: 24px;
+    }
+  }
