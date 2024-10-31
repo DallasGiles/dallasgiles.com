@@ -5,7 +5,7 @@ function SourceCodeLink() {
   return (
     <a
       className="sourceCodeLink"
-      href="https://github.com/DallasGiles/dallasGiles-web"
+      href="https://github.com/DallasGiles"
       target="_blank"
       rel="noopener noreferrer"
       aria-label="=Website GitHub Repository"
