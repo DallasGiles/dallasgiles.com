@@ -1,0 +1,24 @@
+.darkWave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 82px; /* Matches the SVG height to prevent overlaps */
+  overflow: hidden;
+  line-height: 0;
+}
+
+.darkWave svg {
+  position: relative;
+  display: block;
+  width: 100%; /* Avoids overflow and prevents duplication */
+  height: 82px; /* Consistent height to match container */
+  transform: rotate(180deg); /* Rotate only the SVG, not the container */
+}
+
+.darkWave .shape-fill {
+  fill: url("#dark"); /* Gradient fill */
+}
+@media only screen and (max-width: 768px) {
+
+}
