@@ -2,8 +2,7 @@ import PurpleArrows from "../Landing/PurpleArrows";
 import DarkLine from "../Lines/Dark";
 import "./Landing.css";
 import LeftSocialMediaIcons from "./LeftSocialMediaIcons";
-import BlackBlock from "../Lines/black";
-
+import BlackBlock from
 function Landing() {
   return (
     <section id="landing" className="landing">

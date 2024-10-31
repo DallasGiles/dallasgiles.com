@@ -2,7 +2,6 @@ import PurpleArrows from "../Landing/PurpleArrows";
 import DarkLine from "../Lines/Dark";
 import "./Landing.css";
 import LeftSocialMediaIcons from "./LeftSocialMediaIcons";
-import BlackBlock from "../Lines/black";
 
 function Landing() {
   return (
@@ -10,7 +9,7 @@ function Landing() {
       <div className="landing__topText">
         <span className="landing__purpleText">Hi, my name is</span>
         <h1 className="landing__mainText">Dallas Giles.</h1>
-        <h1 className="landing__mainText"></h1>
+        <h1 className="landing__mainText">Coding is kinda my thing.</h1>
       </div>
 
       <hr className="landing__hr" />
@@ -19,12 +18,12 @@ function Landing() {
         <h1 className="landing__mainText">Full Stack</h1>
         <h1 className="landing__mainText">Web Developer</h1>
       </div>
-      <DarkLine />
+
       <PurpleArrows />
 
       <LeftSocialMediaIcons />
 
-      
+      <DarkLine />
     </section>
   );
 }

@@ -1,6 +1,6 @@
 .landing {
     font-family: "Fira Code", monospace;
-    height: 100vh;
+    height: 105vh;
     position: relative;
     background-color: rgb(238, 236, 236);
     text-align: center;
@@ -8,7 +8,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-bottom: 0vh;
+    padding-bottom: 105vh;
     background-color: #b8c6db;
     background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
   }

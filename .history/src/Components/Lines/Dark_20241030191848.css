@@ -1,0 +1,16 @@
+.darkWave {
+  position: absolute;
+  bottom: 100;
+  left: 0;
+  width: 100%;
+  height: 82px; /* Matches the SVG height to prevent overlaps */
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+
+
+.darkWave .shape-fill {
+  fill: url("#dark"); /* Gradient fill */
+}

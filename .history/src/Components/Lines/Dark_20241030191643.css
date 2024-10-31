@@ -1,0 +1,15 @@
+.darkWave {
+  width: 100%;
+  height: 82px;
+  overflow: hidden;
+}
+
+.darkWave svg {
+  width: 100%;
+  height: 82px;
+  transform: rotate(180deg);
+}
+
+.darkWave .shape-fill {
+  fill: url("#dark"); /* Gradient fill */
+}
