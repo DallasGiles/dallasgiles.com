@@ -12,7 +12,9 @@ function Logo({ clicked, setClicked }) {
           }
         }}
       >
-        <img src="/images/logo1.png" alt="Brand Logo" width="75" height="75" />
+        <div className="logo">
+      <span className="initials">D</span><span className="initials">G</span>
+    </div>
       </HashLink>
     </div>
   );
