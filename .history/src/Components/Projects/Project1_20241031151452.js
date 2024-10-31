@@ -1,9 +1,11 @@
 import { FaGithub } from "react-icons/fa";
 import DarkWave from "../Lines/Dark";
 import "./ProjectLight.css";
-
+import { useMediaQuery } from "react-responsive";
 
 function Project1({ id }) {
+  
+
   return (
     <article id={id} className="project light">
       <h2 className="project__header">Projects</h2>
@@ -12,7 +14,7 @@ function Project1({ id }) {
           className="project__image project__specialMobileImage"
           src="/images/Print-Home.png"
           alt="Print-A-Smile Foundation Home Page"
-          width="40%"
+          width="15%"
           height="auto"
           loading="lazy"
         />

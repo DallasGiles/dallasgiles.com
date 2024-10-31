@@ -1,21 +1,46 @@
 import { FaGithub } from "react-icons/fa";
 import DarkWave from "../Lines/Dark";
 import "./ProjectLight.css";
-
+import { useMediaQuery } from "react-responsive";
 
 function Project1({ id }) {
+  const isDesktopOrLaptop = useMediaQuery({
+    query: "(min-width: 769px)",
+  });
+
   return (
     <article id={id} className="project light">
       <h2 className="project__header">Projects</h2>
       <div className="project__main">
         <img
           className="project__image project__specialMobileImage"
-          src="/images/Print-Home.png"
+          src="/images/.png"
           alt="Print-A-Smile Foundation Home Page"
-          width="40%"
+          width="15%"
           height="auto"
           loading="lazy"
         />
+        {isDesktopOrLaptop && (
+          <>
+            <img
+              className="project__image"
+              src="/images/print-a-smile-library.png"
+              alt="Print-A-Smile Design Library"
+              width="15%"
+              height="auto"
+              loading="lazy"
+            />
+            <img
+              className="project__image"
+              src="/images/print-a-smile-dashboard.png"
+              alt="Print-A-Smile User Dashboard"
+              width="15%"
+              height="auto"
+              loading="lazy"
+            />
+          </>
+        )}
+  
         <div data-aos="fade-left" className="project__right">
           <h3 className="project__title">Print-A-Smile Foundation</h3>
           <p className="project__description project__body">

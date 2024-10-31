@@ -12,7 +12,7 @@ function Project1({ id }) {
           className="project__image project__specialMobileImage"
           src="/images/Print-Home.png"
           alt="Print-A-Smile Foundation Home Page"
-          width="40%"
+          width="15%"
           height="auto"
           loading="lazy"
         />
