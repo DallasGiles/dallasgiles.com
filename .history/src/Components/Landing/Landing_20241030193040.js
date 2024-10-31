@@ -24,7 +24,7 @@ function Landing() {
 
       <LeftSocialMediaIcons />
 
-      <DarkLine />
+      
     </section>
   );
 }
