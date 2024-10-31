@@ -14,8 +14,8 @@ function Project1({ id }) {
       <div className="project__main">
         <img
           className="project__image project__specialMobileImage"
-          src="/images/contructioncomms.png"
-          alt="Construction Comms Project Home Page"
+          src="/images/health_fusion_home.png"
+          alt="Health Fusion Project Home Page"
           width="15%"
           height="auto"
           loading="lazy"
@@ -24,16 +24,16 @@ function Project1({ id }) {
           <>
             <img
               className="project__image"
-              src="/images/contructioncomms.png"
-              alt="Contruction Comms Login Page"
+              src="/images/health_fusion_add.png"
+              alt="Health Fusion Map Page"
               width="15%"
               height="auto"
               loading="lazy"
             />
             <img
               className="project__image"
-              src="/images/hcontructioncomms.png"
-              alt="Construction Comms Add Document"
+              src="/images/health_fusion_map.png"
+              alt="Health Fusion Project Add Page"
               width="15%"
               height="auto"
               loading="lazy"
@@ -53,7 +53,7 @@ function Project1({ id }) {
   </p>
   <a
     className="project__sourceCode"
-    href="https://github.com/DallasGiles/document-management-platform"
+    href="https://github.com/DallasGiles/ConstructionComms"
     target="_blank"
     rel="noopener noreferrer"
     aria-label="ConstructionComms GitHub Repository"

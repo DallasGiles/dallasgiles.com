@@ -1,5 +1,5 @@
 import { FaGithub } from "react-icons/fa";
-import DarkWave from "../Lines/Dark";
+import LightWave from "../Lines/Light";
 import "./ProjectDark.css";
 
 function Project2() {
@@ -31,13 +31,13 @@ function Project2() {
           src="/images/Print-A_Smile.jpg"
           srcset="/images/covid_bot_project_image_small.jpg 750w, /images/covid_bot_project_image_large.jpg 1468w"
           sizes="50vw"
-          alt="Print a smile home page"
+          alt="Print a smile "
           width="50%"
           height="auto"
           loading="lazy"
         />
       </div>
-      <DarkWave />
+      <LightWave />
     </article>
   );
 }

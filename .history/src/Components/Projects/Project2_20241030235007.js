@@ -1,5 +1,5 @@
 import { FaGithub } from "react-icons/fa";
-import DarkWave from "../Lines/Dark";
+import LightWave from "../Lines/Light";
 import "./ProjectDark.css";
 
 function Project2() {

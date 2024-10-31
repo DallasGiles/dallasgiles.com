@@ -34,9 +34,9 @@ function About() {
       </div>
       <img
         className="about__headshot"
-        src="/images/headshot.jpeg"
-        alt="Creator"
-        width="250"
+        src="/images/headshot.jpg"
+        alt="Creater Headshot"
+        width="300"
         height="300"
       />
       <LightLine />

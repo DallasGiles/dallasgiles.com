@@ -35,7 +35,7 @@ function About() {
       <img
         className="about__headshot"
         src="/images/headshot.jpeg"
-        alt="Creator"
+        alt="Creater Headshot"
         width="250"
         height="300"
       />

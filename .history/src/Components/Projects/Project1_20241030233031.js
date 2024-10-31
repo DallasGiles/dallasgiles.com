@@ -53,7 +53,7 @@ function Project1({ id }) {
   </p>
   <a
     className="project__sourceCode"
-    href="https://github.com/DallasGiles/document-management-platform"
+    href="https://github.com/DallasGiles/ConstructionComms"
     target="_blank"
     rel="noopener noreferrer"
     aria-label="ConstructionComms GitHub Repository"
