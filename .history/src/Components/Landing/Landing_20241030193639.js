@@ -10,6 +10,7 @@ function Landing() {
       <div className="landing__topText">
         <span className="landing__purpleText">Hi, my name is</span>
         <h1 className="landing__mainText">Dallas Giles.</h1>
+        
       </div>
 
       <hr className="landing__hr" />
