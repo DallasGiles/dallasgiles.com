@@ -49,7 +49,7 @@ function About() {
         src="/images/headshot.jpeg"
         alt="Creator"
         width="268"
-        height="400"
+        height="300"
         loading="lazy"
       />
       <LightLine />

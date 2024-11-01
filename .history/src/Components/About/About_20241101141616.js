@@ -48,8 +48,8 @@ function About() {
         className="about__headshot"
         src="/images/headshot.jpeg"
         alt="Creator"
-        width="268"
-        height="400"
+        width="200"
+        height="300"
         loading="lazy"
       />
       <LightLine />
