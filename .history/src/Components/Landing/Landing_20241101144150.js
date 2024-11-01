@@ -8,14 +8,14 @@ function Landing() {
     <section id="landing" className="landing">
       <div className="landing__topText">
         <span className="landing__purpleText">Hi, my name is</span>
-        <h1 className="landing__mainText" loading="lazy">Dallas Giles.</h1>
+        <h1 className="landing__mainText" loading="">Dallas Giles.</h1>
       </div>
 
       <hr className="landing__hr" />
 
       <div className="landing__bottomText">
-        <h1 className="landing__mainText" loading='lazy'>Full Stack</h1>
-        <h1 className="landing__mainText" loading='lazy'>Web Developer</h1>
+        <h1 className="landing__mainText">Full Stack</h1>
+        <h1 className="landing__mainText">Web Developer</h1>
       </div>
       
       <LeftSocialMediaIcons />

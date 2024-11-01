@@ -14,7 +14,7 @@ function Landing() {
       <hr className="landing__hr" />
 
       <div className="landing__bottomText">
-        <h1 className="landing__mainText" loading='lazy'>Full Stack</h1>
+        <h1 className="landing__mainText"loading='lazy'>Full Stack</h1>
         <h1 className="landing__mainText" loading='lazy'>Web Developer</h1>
       </div>
       
