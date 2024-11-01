@@ -1,6 +1,6 @@
 import "./App.css";
 import Header from "./Components/Nav/Header";
-import React from "react";
+import React, { useEffect } from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Landing from "./Components/Landing/Landing";
 import Projects from "./Components/Projects/Projects";
