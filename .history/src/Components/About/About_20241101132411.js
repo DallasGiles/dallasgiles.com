@@ -22,18 +22,13 @@ function About() {
           
           <span className="about__specialText"> web development</span> in general.
         </p>
-        <br /> <br />
         <p className="about__body">
-           In the future, I would like to develop web and mobile applications that 
-           involve artificial intelligence to solve  <span className="about__specialText">real-world problems</span>,{" "} 
-           <span className="about__specialText">automate tasks</span>, and create <span className="about__specialText">personalized experiences</span>.
+           In the future I would like to develop web and mobile applications that 
+           involve artificial intelligence to solve real-world problems, 
+           automate tasks, and create personalized experiences.
         </p>
-        <br /> <br />
         <p className="about__body">
-           I would also like to work on <span className="about__specialText">open-source projects</span> to give back 
-           to the developer community. 
-           In particular I would like to develop <span className="about__specialText">solutions</span> that are more {" "} 
-           <span className="about__specialText">sustainable</span>, require less  <span className="about__specialText">consumption</span>, and encourage continuous  <span className="about__specialText">learning</span>.
+           I would also like to work on open-source projects to give back to the developer c
         </p>
         <br />
         <p className="about__body">

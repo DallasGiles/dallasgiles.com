@@ -33,7 +33,7 @@ function About() {
            I would also like to work on <span className="about__specialText">open-source projects</span> to give back 
            to the developer community. 
            In particular I would like to develop <span className="about__specialText">solutions</span> that are more {" "} 
-           <span className="about__specialText">sustainable</span>, require less  <span className="about__specialText">consumption</span>, and encourage continuous  <span className="about__specialText">learning</span>.
+           <span className="about__specialText">sustainable</span>, require less {" "} consumption, and encourage continuous learning.
         </p>
         <br />
         <p className="about__body">
