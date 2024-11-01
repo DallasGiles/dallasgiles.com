@@ -5,6 +5,12 @@ import Aos from "aos";
 import "./About.css";
 import "aos/dist/aos.css";
 
+const scrollWithOffset = (el) => {
+  const yOffset = -80; 
+  const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset + yOffset;
+  window.scrollTo({ top: yCoordinate, behavior: "smooth" });
+};
+
 function About() {
   useEffect(() => {
     Aos.init({ duration: 2000 });

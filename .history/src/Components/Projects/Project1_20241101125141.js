@@ -3,7 +3,7 @@ import DarkWave from "../Lines/Dark";
 import "./ProjectLight.css";
 
 
-function Project1({ id = "project" }) {
+function Project1({ id }) {
   return (
     <article id={id} className="project light">
       <h2 className="project__header">Projects</h2>
@@ -23,7 +23,7 @@ function Project1({ id = "project" }) {
             With a centralized <span className="project__specialText">design library</span> and individual <span className="project__specialText">user dashboards</span>, the platform provides seamless access to printable files, project updates, and donation tracking. Additionally, <span className="project__specialText">live impact metrics</span> show real-time stats of toys printed and distributed, fostering a connected community of supporters.
           </p>
           <p className="project__tech project__body">
-            &gt; React · Firebase · Node.js · Express · Firestore · Stripe API
+            &gt; React · AWS S3 · Node.js · Express · Google Firestore · Stripe API
           </p>
           <a
             className="project__sourceCode"

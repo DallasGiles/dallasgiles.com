@@ -14,6 +14,7 @@ function Nav({ setClicked, clicked }) {
           link={item.link}
         />
       ))}
+      {/* <BlogButton /> */}
       <ResumeButton />
     </nav>
   );

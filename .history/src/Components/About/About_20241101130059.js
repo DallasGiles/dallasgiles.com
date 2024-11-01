@@ -5,6 +5,7 @@ import Aos from "aos";
 import "./About.css";
 import "aos/dist/aos.css";
 
+
 function About() {
   useEffect(() => {
     Aos.init({ duration: 2000 });
@@ -12,6 +13,7 @@ function About() {
 
   return (
     <section id="about" className="about">
+      <div></div>
       <div data-aos="fade-right" className="about__text">
         <h2 className="about__heading">About Me</h2>
         <p className="about__body">

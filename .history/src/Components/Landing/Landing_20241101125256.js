@@ -18,6 +18,8 @@ function Landing() {
         <h1 className="landing__mainText">Web Developer</h1>
       </div>
       
+      <PurpleArrows />
+
       <LeftSocialMediaIcons />
 
       <DarkLine />

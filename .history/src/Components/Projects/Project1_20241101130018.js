@@ -3,7 +3,7 @@ import DarkWave from "../Lines/Dark";
 import "./ProjectLight.css";
 
 
-function Project1({ id = "project" }) {
+function Project1({ id =  }) {
   return (
     <article id={id} className="project light">
       <h2 className="project__header">Projects</h2>
