@@ -50,7 +50,7 @@ function About() {
         alt="Creator"
         width="250"
         height="300"
-        loading="lazy"
+        loading
       />
       <LightLine />
     </section>

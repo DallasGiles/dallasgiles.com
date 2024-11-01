@@ -25,9 +25,24 @@
         rel="stylesheet"
       />
     </noscript>
+
+    <!-- Inline Critical CSS -->
+    <style>
+      /* Example of critical CSS for above-the-fold content */
+      body, html {
+        margin: 0;
+        padding: 0;
+        font-family: 'Roboto', sans-serif;
+        background-color: #ffffff;
+      }
+    </style>
   </head>
+
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+
+    <!-- Load Main JS Script with Defer -->
+    <script src="path/to/your/main.js" defer></script>
   </body>
 </html>
