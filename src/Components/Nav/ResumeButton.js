@@ -5,7 +5,7 @@ function ResumeButton() {
   return (
     <Link
       className="navItem resumeButton"
-      to="/DallasGiles.pdf"
+      to="/DallasGiles.docx"
       target="_blank"
     >
       <h3>Resume</h3>
