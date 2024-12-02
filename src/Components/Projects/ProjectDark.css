@@ -49,4 +49,7 @@
       align-items: center;
       margin-right: 0;
     }
+    .project__imageDark {
+      display: none;
+    }
   }

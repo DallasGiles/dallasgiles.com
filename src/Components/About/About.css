@@ -61,9 +61,6 @@
     }
   
     .about__headshot {
-      width: 200px;
-      height: 200px;
-      margin-bottom: 15vh;
-      margin-top: 15px;
+      display: none;
     }
   }
